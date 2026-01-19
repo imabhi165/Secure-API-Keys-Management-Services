@@ -1,7 +1,3 @@
-Below is a **clean, well-structured `README.md`** version of your project with **proper explanations, consistent formatting, and clear sections**.
-You can **copy-paste this directly into `README.md`**.
-
----
 
 ````md
 # 🔐 Secure API Key Management Service
