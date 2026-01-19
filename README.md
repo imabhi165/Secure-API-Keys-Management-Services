@@ -1,5 +1,3 @@
-
-````md
 # 🔐 Secure API Key Management Service
 
 A backend service built with **Node.js, Express, and MongoDB** that provides user authentication and secure API key management.
@@ -47,8 +45,7 @@ api-key-service/
 ├── .env                   # Environment variables
 ├── package.json
 └── README.md
-````
-
+```
 ---
 
 ## ⚙️ Prerequisites
