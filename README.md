@@ -33,18 +33,33 @@ The project focuses on **clarity, scalability, and learning-first development**,
 ## 📁 Project Structure
 
 ```text
-api-key-service/
+
+secure-api-key-service/
 ├── src/
 │   ├── config/
-│   │   └── db.js          # MongoDB connection logic
+│   │   ├── db.js
+│   │   └── env.js
 │   ├── models/
-│   │   └── User.js        # User schema definition
+│   │   ├── User.js
+│   │   └── ApiKey.js
 │   ├── routes/
-│   │   └── userRoutes.js  # User-related API routes
-│   └── index.js           # Application entry point
-├── .env                   # Environment variables
+│   │   ├── auth.routes.js
+│   │   └── apiKey.routes.js
+│   ├── controllers/
+│   │   ├── auth.controller.js
+│   │   └── apiKey.controller.js
+│   ├── middleware/
+│   │   ├── auth.middleware.js
+│   │   └── apiKey.middleware.js
+│   ├── utils/
+│   │   ├── generateApiKey.js
+│   │   └── hash.js
+│   └── app.js
+├── server.js
+├── .env
 ├── package.json
 └── README.md
+
 ```
 ---
 
